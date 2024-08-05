@@ -96,6 +96,8 @@
     transition: all 200ms linear;
 }
 
+<<<<<<< HEAD
+=======
 .hero-sec-btn {
     width: 173px;
     height: 63px;
@@ -117,6 +119,7 @@
     transition: all 300ms linear;
 }
 
+<<<<<<< HEAD
 /* =======================================section-4 ==================================================== */
 
 .sec-four-about-box {
@@ -285,6 +288,9 @@
     height: 38px;
 }
 
+=======
+>>>>>>> c87b331f63130648fddfaac00261387fc3ad6428
+>>>>>>> 88f6b4db2c77d158573613c6c31ed6240a3673b9
 /* ===================================utility-class========================================== */
 .gap-28 {
     gap: 28px;
@@ -407,6 +413,7 @@ ul li a {
         width: 23px;
         background-color: red;
 
+<<<<<<< HEAD
     }
 
 }
@@ -484,3 +491,17 @@ ul li a {
         text-align: center;
     }
 }
+=======
+<<<<<<< HEAD
+    ul li a {
+        color: black;
+    }
+
+    .sm-align-item-center {
+        justify-content: center;
+    }
+} */
+=======
+}
+>>>>>>> c87b331f63130648fddfaac00261387fc3ad6428
+>>>>>>> 88f6b4db2c77d158573613c6c31ed6240a3673b9
