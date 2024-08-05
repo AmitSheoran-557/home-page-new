@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 :root {
- 
     --jakarta-font: "Plus Jakarta Sans", sans-serif;
+    --Manrope: "Manrope", sans-serif;
+}
+:root{
+    --white:white;
+    --orange:#FF0000;
+    
 }
