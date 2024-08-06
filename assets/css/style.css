@@ -575,10 +575,6 @@ ul li a {
     padding-left: 25px;
 }
 
-.mt-164 {
-    margin-top: 164px;
-}
-
 .btn-pad {
     padding: 20px 32px !important;
 }
@@ -813,6 +809,9 @@ ul li a {
     path {
         fill: red;
     }
+}
+.btn1:hover{
+    background: #FF0000 !important;
 }
 
 .fs-18 {
