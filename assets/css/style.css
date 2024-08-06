@@ -49,7 +49,6 @@
     font-weight: 400;
     line-height: 19.2px;
     text-align: left;
-
 }
 
 .rating {
@@ -361,6 +360,75 @@ ul li a {
 
 }
 
+/* ===========================================section 6 =================================== */
+/* ===================card===================================== */
+.card-heading {
+    max-width: 547px;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48.56px;
+    text-align: center;
+}
+
+.card-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    background-image: url(/assets/image-png/Frame\ 18\ \(1\).png);
+    background-size: cover;
+    border-radius: 24px;
+    overflow: hidden;
+
+}
+
+
+.card-1:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #FF0000BF;
+    z-index: -1;
+}
+
+.card-btn {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    width: 173px;
+    height: 63px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 56px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    color: #FF0000;
+    background-color: white;
+    transition: all 300ms linear;
+    border: none;
+}
+
+.card-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    max-width: 592px;
+    width: 100%;
+}
+
+
 
 /* ====================================== Responsive ============================================== */
 @media (max-width:992px) {
@@ -428,6 +496,15 @@ ul li a {
         line-height: 50.56px;
         text-align: center;
     }
+
+    .card-heading {
+        max-width: 547px;
+        width: 100%;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 53.56px;
+        text-align: center;
+    }
 }
 
 @media (min-width:786px) {
@@ -457,6 +534,14 @@ ul li a {
         color: #000000;
     }
 
+    .card-heading {
+        max-width: 547px;
+        width: 100%;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60.56px;
+        text-align: center;
+    }
 
 }
 
@@ -492,6 +577,16 @@ ul li a {
         line-height: 70.56px;
         text-align: center;
     }
+
+    .card-heading {
+        max-width: 547px;
+        width: 100%;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 70.56px;
+        text-align: center;
+    }
+
 }
 
 /* ============================================================= */
@@ -752,6 +847,9 @@ ul li a {
     border-radius: 24px;
 }
 
+.footer-list-link:hover {
+    -webkit-text-stroke: 0.6px;
+}
 
 /* ========================================================================================================= */
 
@@ -781,10 +879,12 @@ ul li a {
 .height-100vh {
     min-height: 100vh;
 }
-.w-485{
+
+.w-485 {
     max-width: 485px;
 }
-.h-631{
+
+.h-631 {
     height: 631px;
 }
 
@@ -810,7 +910,8 @@ ul li a {
         fill: red;
     }
 }
-.btn1:hover{
+
+.btn1:hover {
     background: #FF0000 !important;
 }
 
