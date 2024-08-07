@@ -1,7 +1,7 @@
 .height-100vh {
     min-height: 100vh;
 }
-
+/* ====================================== section-1 ================================================ */
 .bg-img-sec-1 {
     background-image: url(/assets/image-png/Frame\ 18\ \(1\).png);
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@
     text-align: center;
 }
 
-/* ================================================================= */
+/* ==================================================================================== */
 
 .w-75 {
     width: 75%;
@@ -141,7 +141,7 @@ ul li a:hover {
     transition: all 300ms linear;
 }
 
-/* =======================================section-4 ==================================================== */
+/* ======================================= section-4 ==================================================== */
 
 .sec-four-about-box {
     max-width: 229px !important;
@@ -206,8 +206,78 @@ ul li a:hover {
     text-align: left;
 
 }
+/* ===========================================section 6 =================================== */
+/* ===================card===================================== */
 
-/* =======================================section - 7========================================= */
+
+.card-heading {
+    max-width: 547px;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48.56px;
+    text-align: center;
+}
+
+.card-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    background-image: url(/assets/image-png/Frame\ 18\ \(1\).png);
+    background-size: cover;
+    border-radius: 24px;
+    overflow: hidden;
+
+}
+
+.card-1:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #FF0000BF;
+    z-index: -1;
+}
+
+.card-btn {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    width: 173px;
+    height: 63px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 56px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    color: #FF0000;
+    background-color: white;
+    transition: all 300ms linear;
+    border: none;
+}
+
+.card-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    max-width: 592px;
+    width: 100%;
+}
+/* ==================================================/ */
+
+
+/* ======================================= section - 7========================================= */
 .a-btn-2:after {
     content: "";
     position: absolute;
@@ -265,7 +335,7 @@ ul li a:hover {
 }
 
 
-/* ================================section 8=========================================*/
+/* ================================ section 8=========================================*/
 .sec-8-heading {
     font-size: 47px;
     font-weight: 500;
@@ -363,75 +433,6 @@ ul li a:hover {
     color: var(--dark-black);
 }
 
-/* ===========================================section 6 =================================== */
-/* ===================card===================================== */
-
-
-.card-heading {
-    max-width: 547px;
-    width: 100%;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 48.56px;
-    text-align: center;
-}
-
-.card-1 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 64px;
-    padding-top: 64px;
-    background-image: url(/assets/image-png/Frame\ 18\ \(1\).png);
-    background-size: cover;
-    border-radius: 24px;
-    overflow: hidden;
-
-}
-
-.card-1:before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #FF0000BF;
-    z-index: -1;
-}
-
-.card-btn {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22.68px;
-    text-align: left;
-    width: 173px;
-    height: 63px;
-    padding: 20px 32px 20px 32px;
-    border-radius: 56px;
-    border: 1px solid white;
-    color: white;
-    background-color: transparent;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.card-btn:hover {
-    color: #FF0000;
-    background-color: white;
-    transition: all 300ms linear;
-    border: none;
-}
-
-.card-para {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28.8px;
-    text-align: center;
-    max-width: 592px;
-    width: 100%;
-}
-/* ==================================================/ */
 
 /* ====================================== Responsive ============================================== */
 @media (max-width:576px) {
