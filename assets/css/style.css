@@ -1,6 +1,7 @@
 .height-100vh {
     min-height: 100vh;
 }
+
 /* ====================================== section-1 ================================================ */
 .bg-img-sec-1 {
     background-image: url(/assets/image-png/Frame\ 18\ \(1\).png);
@@ -199,6 +200,7 @@ ul li a:hover {
     text-align: left;
 
 }
+
 /* ===========================================section 6 =================================== */
 /* ===================card===================================== */
 
@@ -267,6 +269,7 @@ ul li a:hover {
     max-width: 592px;
     width: 100%;
 }
+
 /* ==================================================/ */
 
 
@@ -433,10 +436,12 @@ ul li a:hover {
         justify-content: center;
     }
 }
+
 @media (min-width:992px) {
     div.menu {
         justify-content: space-between;
     }
+
     .sec-8-card {
         max-width: 364px;
         width: 100%;
@@ -519,6 +524,7 @@ ul li a:hover {
 
     }
 }
+
 @media (min-width:576px) {
     .sec-7-heading {
         font-size: 42px;
@@ -535,12 +541,14 @@ ul li a:hover {
         line-height: 53.56px;
         text-align: center;
     }
+
     .sec-heading {
         font-size: 47px;
         font-weight: 600;
         line-height: 57.56px;
         text-align: center;
     }
+
     .sec-8-card {
         max-width: 364px;
         width: 100%;
@@ -552,7 +560,7 @@ ul li a:hover {
         box-shadow: 0px 2px 44px 3px #5757571A;
     }
 
-    
+
 }
 
 @media (min-width:786px) {
@@ -590,6 +598,7 @@ ul li a:hover {
         line-height: 60.56px;
         text-align: center;
     }
+
     .sec-heading {
         font-size: 50px;
         font-weight: 600;
@@ -608,12 +617,14 @@ ul li a:hover {
         text-align: left;
         color: var(--white);
     }
+
     .sec-heading {
         font-size: 56px;
         font-weight: 600;
         line-height: 70.56px;
         text-align: center;
     }
+
     .sec-4-heading {
         font-size: 56px;
         font-weight: 600;
@@ -804,6 +815,7 @@ ul li a:hover {
 .sec-2-card:hover {
     box-shadow: 0px 0px 12px 3px #B6B6B640;
     border: none;
+    
 }
 
 .red {
@@ -825,10 +837,12 @@ ul li a:hover {
 .sec-3-margin {
     margin: 100px 0px;
 }
-.sec-3-card{
+
+.sec-3-card {
     text-align: left;
     align-items: flex-start;
 }
+
 .sec-3-card-box {
     max-width: 62px;
     width: 100%;
@@ -1005,12 +1019,12 @@ ul li a:hover {
 }
 
 .learn-more-hover:hover {
-    
+
     color: #FF0000;
 
-        path {
-            fill: red;
-        }
+    path {
+        fill: red;
+    }
 }
 
 .social-hover:hover {
@@ -1026,7 +1040,7 @@ ul li a:hover {
 }
 
 .our-blog-card:hover {
-  transition: all 100ms linear;
+    transition: all 100ms linear;
     transform: scale(1.04);
 }
 
